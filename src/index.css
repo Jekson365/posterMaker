@@ -1,8 +1,12 @@
 * {
     font-family: sans-serif;
 }
+input {
+    margin: 10px 0;
+    padding: 10px 0;
+}
 .box {
-    max-width: 200px;
+    max-width: 250px;
     height: fit-content;
     display: flex;
     background-color: rgb(234, 234, 234);
@@ -39,4 +43,12 @@
 }
 .title {
     font-size: 25px;
+}
+.main {
+    max-width: 1200px;
+    display: grid;
+    margin:  100px auto;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
 }
